@@ -34,6 +34,8 @@ colCount = sheet.ncols
 print(rowCount)
 print(sheet.ncols)
 
+'''Here it'll fill the registration page feilds'''
+
 for curr_row in range(1, rowCount):
     urlValue = sheet.cell_value(curr_row, 0)
     firstName = sheet.cell_value(curr_row, 1)
@@ -46,7 +48,7 @@ for curr_row in range(1, rowCount):
     industry_name = sheet.cell_value(curr_row, 8)
     countryName = sheet.cell_value(curr_row, 9)
 
-
+    # first it will clear the existing value then fill again.
     url.clear()
     url.send_keys(urlValue)
     first_name.clear()
@@ -61,12 +63,9 @@ for curr_row in range(1, rowCount):
     comp_name.send_keys(company)
     contact.clear()
     contact.send_keys(phoneNumber)
-    #total_emp.send_keys(totalEmp)
-    #industry.send_keys(industry_name)
-    #countryName.send_keys(cont_name)
+    # total_emp.send_keys(totalEmp)
+    # industry.send_keys(industry_name)
+    # countryName.send_keys(cont_name)
     print(url, firstName, lastName, emailID)
 
     time.sleep(3)
-
-
-
