@@ -10,8 +10,6 @@ test_demo1.py
 test_demo2.py
 test_demo3.py
 
-Naveen Video Links: https://youtu.be/CNB1iRv5hZo
-
 **pip install --upgrade pip**
 
 To Run entire TCs from a given package and it will execute to those file which have either START/END have "test" --> Keyword
@@ -28,4 +26,4 @@ The below command will execute all those TCs which have a login keyword
   - py.test -k login -v
 
 # Reference
-https://youtu.be/CNB1iRv5hZo
+Naveen Video Links: https://youtu.be/CNB1iRv5hZo
