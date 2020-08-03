@@ -15,6 +15,7 @@ Naveen Video Links: https://youtu.be/CNB1iRv5hZo
 **pip install --upgrade pip**
 
 To Run entire TCs from a given package and it will execute to those file which have either START/END have "test" --> Keyword
+
 **py.test test_demo2.py**
 
 -k is identifier like that a Group in TestNg
