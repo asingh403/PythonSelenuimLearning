@@ -26,7 +26,7 @@ The below command will execute all those TCs which have a login keyword
   - py.test -k login -v
 
 # Reference
-Naveen Video Links: https://youtu.be/CNB1iRv5hZo
+Video Links: https://youtu.be/CNB1iRv5hZo
 
 
 # Parallel Execution
@@ -39,3 +39,4 @@ For running in Parallel mode
  **The below command will  execute all the Test Cases which is having a login keyword :**
  - @pytest.mark.login
  
+ Video Links: https://youtu.be/5t36B95MxY8
