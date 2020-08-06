@@ -27,3 +27,15 @@ The below command will execute all those TCs which have a login keyword
 
 # Reference
 Naveen Video Links: https://youtu.be/CNB1iRv5hZo
+
+
+# Parallel Execution
+To run in the Parallel mode install the below pkg from  Terminal
+- pip install pytest-xdist
+ 
+For running in Parallel mode
+ - py.test -n 5
+ 
+ **The below command will  execute all the Test Cases which is having a login keyword :**
+ - @pytest.mark.login
+ 
